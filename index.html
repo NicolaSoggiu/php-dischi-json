@@ -19,7 +19,11 @@
       </nav>
     </header>
     <div id="app">
-      <div class="container"></div>
+      <div class="container">
+        <ul>
+          <li v-for="card in arrCards" :key="card">{{ card }}</li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
