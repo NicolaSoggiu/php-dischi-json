@@ -1,0 +1,28 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    height: 10vh;
+    background-color: #06131F;
+    display: flex;
+    align-items: center;
+    padding-left: 6rem;
+}
+
+.logo {
+    width: 30px;
+}
+
+/* CONTAINER */
+
+.container {
+    height: 90vh;
+    background-color: #1D2D3C;
+}
