@@ -58,3 +58,8 @@ header {
     width: 130px;
     padding-bottom: .5rem;
 }
+
+.card.front_page {
+    transform: scale(2);
+    transition: transform 0.3s ease;
+  }
