@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #1D2D3C;    
+}
+
 /* HEADER */
 
 header {
@@ -23,27 +27,34 @@ header {
 /* CONTAINER */
 
 .container {
-    width: 100%;
+    width: 60%;
     height: 90vh;
-    background-color: #1D2D3C;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    
 }
 
 .container .card {
-    width: 200px;
+    width: calc((100% - 6rem) / 3);
+    height: 270px;
     color: white;
     background-color: #112030;
-    padding: 1rem;
+    padding: 1.5rem 2rem;
     margin: auto;
     text-align: center;
+    gap: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .card .author {
     color: lightgrey;
-    padding: 0.8rem 0;
+    padding: 0.5rem 0;
 }
 
 .card_img {
-    width: 150px;
+    width: 130px;
+    padding-bottom: .5rem;
 }
