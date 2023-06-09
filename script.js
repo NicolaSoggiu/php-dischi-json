@@ -9,7 +9,7 @@ createApp({
   methods: {
     requestCard() {
       axios
-        .get("http://localhost/php-dischi-json/script.php")
+        .get("http://localhost/php-dischi-json/cards.php")
         .then((response) => (this.arrCards = response.data));
     },
   },

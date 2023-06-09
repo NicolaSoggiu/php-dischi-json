@@ -20,9 +20,12 @@
     </header>
     <div id="app">
       <div class="container">
-        <ul>
-          <li v-for="card in arrCards" :key="card">{{ card }}</li>
-        </ul>
+        <div class="card" v-for="card in arrCards" :key="card">
+          <img src="" alt="" />
+          <h3>{{ card.title }}</h3>
+          <h4 class="author">{{ card.author }}</h4>
+          <span>{{ card.year }}</span>
+        </div>
       </div>
     </div>
   </body>
